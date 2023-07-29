@@ -10,12 +10,22 @@
 .text {
   color:black;
   display: flex;
+  margin-top: 10px;
 }
 
 .text2 {
   color:black;
   display: flex;
+  margin-top: 10px;
 }
+
+.text3 {
+  color:black;
+  display: flex;
+  margin-right: 10px;
+}
+
+
 
 .imge {
   position: absolute;

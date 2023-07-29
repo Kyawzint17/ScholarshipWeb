@@ -13,8 +13,9 @@ export default function Home() {
           <div className={styles['text']}>AU Scholar</div>
         </Link>
       </div>
-
+      
       <div className={styles['imge2-container']}>
+        <div  className={styles['text3']}>Scholarship Works</div>
         <Image src="/profile_pic.png" alt="Another Image" width={35} height={35} />
       </div>
       <div className={styles['text-container']}>
