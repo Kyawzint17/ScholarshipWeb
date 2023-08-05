@@ -4,7 +4,8 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    
+    border: 1px solid #ccc;
+
   }
 
 .text {
@@ -16,16 +17,8 @@
 .text2 {
   color:black;
   display: flex;
-  margin-top: 10px;
-}
-
-.text3 {
-  color:black;
-  display: flex;
   margin-right: 10px;
 }
-
-
 
 .imge {
   position: absolute;
@@ -35,10 +28,6 @@
 }
 
 .imge-container {
-  margin-right: 20px;
-}
-
-.imge2-container {
   margin-left: auto; /* Push the profile picture to the right side */
   display: flex;
   align-items: center;
@@ -53,12 +42,75 @@
 }
 
 
+.navBar {
+  background-color: #efebeb;
+  padding: 1rem;
+}
 
+.li {
+  margin: 0 1rem;
+}
 
+.ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
 
+.logo {
+  display: flex; /* Add this to make the logo and text align horizontally */
+  align-items: center; /* Vertically center the logo and text within the nav bar */
+  margin-right: 1rem; /* Add spacing between the logo/text and links */
+}
 
+.logoText {
+  margin-left: 0.5rem; /* Add spacing between the logo and text */
+  color: #121111; /* Customize the text color */
+  font-size: 1.2rem; /* Customize the text size */
+}
 
+.logoContainer {
+  display: flex; /* Add this to make the logo and text appear on the same line */
+  align-items: center; /* Vertically center the logo and text */
+}
 
+.right-items {
+  display: flex;
+  align-items: center;
+}
 
+.works-list {
+  color: #121111;
+  display: flex;
+  flex: 1; /* Take up remaining space */
+  margin-right: 1rem; /* Add some spacing between the two sections */ 
+}
 
+.worksul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
 
+.work-details {
+  color: black;
+  flex: 2; /* Take up twice the space of the works list */
+}
+
+.line {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 0;
+}
+
+.create-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 10px;
+  background-color: #3e4854; /* Change this color to your desired button color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import Link from 'next/link';
-import styles from '../components/login.module.css'
+import styles from '../components/login.module.css';
+import Image from 'next/image';
+
 
 export default function LoginPage() {
   const [email, setEmail] = useState('');
@@ -26,7 +28,13 @@ export default function LoginPage() {
     
     <div className={styles['login-page']}>
       <div className={styles['login-container']}>
-        <h1 className={styles['h1']}>Login</h1>
+        <div className={styles['login-content']}>
+          <Image src="/abac_logo.png" alt="Image" width={40} height={40} className={styles['logo-image']}/>
+          <div className={styles['login-heading-container']}>
+            <div className={styles['login-heading']}>Scholarship
+            </div>
+          </div>
+        </div>
       <form onSubmit={handleSubmit}>
         <div className={styles['form-group']}>
           <label className={styles['label']}>Email</label>

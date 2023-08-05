@@ -8,7 +8,9 @@
 
 .h1 {
   color: black;
-  margin-bottom: 20px; /* Add margin below the h1 element */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .label {
@@ -58,4 +60,23 @@
   display: flex; /* Use flexbox */
   justify-content: space-between; /* Space buttons equally */
   margin-top: 20px;
+}
+
+.login-heading {
+  color: black;
+  margin-left: 10px;
+  display: flex;
+}
+
+.login-content {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+}
+
+.logo-image {
+  margin-right: 10px; /* Add margin to the right side of the image */
+}
+
+.login-heading-container {
+  flex: 1; /* Allow the container to expand and push the text to the right */
 }
