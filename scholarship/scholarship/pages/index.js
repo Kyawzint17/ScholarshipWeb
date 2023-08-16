@@ -50,12 +50,12 @@ export default function LoginPage() {
         </div>
         <div className={styles['buttons-container']}>
         <button className={styles['loginbutton']} type="submit">
-          <Link href="/home">
+          <Link href="/studentHome">
               Login
           </Link>
         </button>
         <button className={styles['registerbutton']}>
-        <Link href="/register">
+        <Link href="/staffHome">
               Register
         </Link>
         </button>

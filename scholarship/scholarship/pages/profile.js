@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Profile() {
     return (
-    <Link href={'/home'}>
+    <Link href={'/staffHome'}>
       <div>
         Profile
       </div>

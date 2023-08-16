@@ -8,7 +8,7 @@ const NavBar = () => {
   const router = useRouter();
 
   // Define the list of page paths where the navigation bar should be visible
-  const visiblePaths = ['/home'];
+  const visiblePaths = ['/staffHome','/studentHome'];
 
   if (!visiblePaths.includes(router.pathname)) {
     return null; // Don't render the navigation bar on other pages

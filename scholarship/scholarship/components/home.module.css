@@ -93,6 +93,8 @@
 }
 
 .work-details {
+  padding: 20px; /* Add spacing around the content */
+  border: 1px solid #ccc; /* Optional: Add a border for visual separation */
   color: black;
   flex: 2; /* Take up twice the space of the works list */
 }
@@ -113,4 +115,86 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.work-details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.apply-button {
+  padding: 6px 12px;
+  background-color: #3e4854;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.close-button {
+  padding: 6px 12px;
+  background-color: #3e4854;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-section {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-item {
+  cursor: pointer;
+  color: #3e4854;
+}
+
+.contact-info {
+  margin-top: 10px;
+}
+
+.title-container {
+  display: flex; /* Display the titles next to each other */
+  gap: 10px; /* Add space between titles */
+  margin-bottom: 10px; /* Add margin below the titles */
+}
+
+.qualification-info {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.details-info {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.contact-info {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.active-title {
+  cursor: pointer;
+  text-decoration: underline; /* Add your preferred active title color */
 }
